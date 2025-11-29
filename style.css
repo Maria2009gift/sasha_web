@@ -131,6 +131,7 @@
   display: flex;
   gap: 30px;
   justify-content: space-around;
+  margin-bottom: 40px;
 }
 
 .achivmentI {
@@ -163,6 +164,40 @@
 .c4 {
   height: auto;
   width: 80px;
+}
+
+.a_conta {
+  border: 3px ridge #71c8d7;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+.titleMainAch {
+  font-size: 70px;
+  line-height: 40px;
+  margin: 0 auto 20px;
+  width: 850px;
+  color: #000000;
+}
+
+.descrMainAch {
+  font-size: 30px;
+  line-height: 30px;
+  color: #71c8d7;
+
+  margin: 0 auto;
+  width: 732px;
+  padding: 20px 70px;
+  text-align: center;
+}
+
+.ku {
+  height: auto;
+  width: 300px;
+  margin: 0 auto;
 }
 
 /* ------------------------------------------------------ */
