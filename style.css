@@ -1,0 +1,211 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+     padding-inline-start: 0px;
+ }
+ body {
+     font-family: Roboto;
+     margin: 0px;
+     padding: 0px;
+     color: #757575;
+     letter-spacing: 0,03em;
+     background-color: #F5F4FA;
+   
+ }
+   
+ ul {
+   list-style: none;
+   }
+   
+ li {
+     list-style: none;
+   }
+   
+ a {
+     text-decoration: none;
+   }
+   
+ img{
+     display: block;
+     width: 100%;
+     height: auto;
+   }
+  input {
+    border:2px dotted green;
+    border-radius: 5px;
+    height: 40px;
+    font-size: 20px;
+  }
+
+/* ------------------------------------------------ */
+
+.header {
+  background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  font-size: 85px;
+  line-height: 75px;
+  color: rgb(0, 0, 0);
+  background: linear-gradient(to left, red, orange, yellow, green, blue, indigo, violet);
+  margin: 200px 0;
+  padding: 40px;
+}
+
+/* ------------------------------------------------------ */
+
+.zagadka {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-items: start;
+  background-color: #71c8d7;
+}
+
+.title_zagadky {
+  margin: 0 auto;
+  width: 250px;
+  font-size: 55px;
+  line-height: 55px;
+  color: black;
+  font-style: italic;
+}
+
+.description {
+  font-size: 30px;
+  margin: 0 auto 0;
+  line-height: 20px;
+  color: #ed82e2;
+}
+
+.megaContainer {
+  display: flex;
+  justify-content: space-around;
+  gap: 50px;
+  padding: 0 100px;
+  margin: 30px 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px 5px;
+}
+
+.textz {
+  font-size: 25px;
+  line-height: 30px;
+  color: #ed82e2;
+}
+
+.answerz1, .answerz2 {
+  font-size: 20px;
+  line-height: 20px;
+  background-color: greenyellow;
+  margin: 10px;
+  padding: 10px;
+}
+
+/* ------------------------------------------------------ */
+
+.achivment {
+  padding: 30px 0;
+  background-color: #ed82e2;
+}
+
+.title_achivment {
+  margin: 0 auto;
+  width: 250px;
+  font-size: 55px;
+  line-height: 55px;
+  color: black;
+  font-style: italic;
+}
+
+.listA {
+  padding: 0 auto;
+  display: flex;
+  gap: 30px;
+  justify-content: space-around;
+}
+
+.achivmentI {
+  width: 200px;
+  border: 2px #71c8d7 inset;
+  padding: 20px;
+}
+
+.ach_item {
+  font-size: 20px;
+  line-height: 20px;
+  color: #71c8d7;
+}
+
+.cubok {
+  height: auto;
+  width: 30px;
+}
+
+.c1 {
+  height: auto;
+  width: 90px;
+}
+
+.c3 {
+  height: auto;
+  width: 60px;
+}
+
+.c4 {
+  height: auto;
+  width: 80px;
+}
+
+/* ------------------------------------------------------ */
+
+.title_photo {
+  margin: 0 auto;
+  padding: 30px 0;
+  width: 600px;
+  font-size: 55px;
+  line-height: 55px;
+  color: black;
+  font-style: italic;
+}
+
+.img {
+  padding: 20px 50px 30px;
+  background-color: #71c8d7;
+}
+
+
+.gallery {
+  display: flex;
+  justify-content: space-around;
+}
+
+.photo {
+  width: 550px;
+}
+
+/* ------------------------------------------------------- */
+
+.words {
+  background-color: #71c8d7;
+}
+
+.title_word {
+  color: black;
+  margin: 0;
+}
+
+.words_p {
+  font-size: 20px;
+  line-height: 20px;
+  color: black;
+  margin: 0;
+}
